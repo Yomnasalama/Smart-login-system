@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <script src="https://kit.fontawesome.com/43b2306454.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/mediaQuery.css">
+</head>
+<body>
+    <div class="container text-center my-5">
+        <div class="group m-auto w-75 p-5">
+            <h1>Smart Login System</h1>
+
+            <input id="signupName" class="form-control my-3" placeholder="Enter your name" type="text">
+            <input id="signupEmail" class="form-control my-3" placeholder="Enter your email" type="text">
+            <input id="signupPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+            <p id="exist"></p>
+        
+
+            <button onclick="signup()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <p class="text-white">You have an account? <a class="text-white" href="./index.html">Sign in</a></p>
+
+        </div>
+        
+    </div>
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
